@@ -31,6 +31,7 @@
 # Clone the repository
 git clone https://github.com/PULSAR-002/stegopy.git
 cd stegopy
+cd stegopy (see if there is a setup.py file in this directory after spoting it enter the following command)
 pip install .
 </pre>
 ##Install the requirements in virtual environment (recommended)
