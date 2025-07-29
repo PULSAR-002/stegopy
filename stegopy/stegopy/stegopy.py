@@ -1,5 +1,6 @@
 import argparse
 from stegano import lsb
+from . import banner
 
 def hide(img2hide, message, newImg):
     try:
@@ -17,6 +18,7 @@ def decode(img2decode):
         print(f"[!] Error: {e}")
 
 def main():
+    banner()
     parser = argparse.ArgumentParser(description="Terminal-based Steganography tool by PULSAR")
 
     subparsers = parser.add_subparsers(dest='command', help='Subcommands: encode or decode')
